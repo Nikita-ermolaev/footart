@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C9A84C"/>
+      <stop offset="100%" style="stop-color:#E8D5A3"/>
+    </linearGradient>
+  </defs>
+  <text x="10" y="40" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="800" fill="#6B4F4B">Foot</text>
+  <text x="98" y="40" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="800" fill="url(#gold)">Art</text>
+  <line x1="10" y1="48" x2="190" y2="48" stroke="#6B4F4B" stroke-width="1.5"/>
+  <text x="10" y="58" font-family="'Open Sans', Arial, sans-serif" font-size="8" fill="#8B7D6B" letter-spacing="2">ИСКУССТВО СОЗДАВАТЬ КОМФОРТ</text>
+</svg>

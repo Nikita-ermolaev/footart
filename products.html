@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог обуви FootArt | Премиум качество</title>
+    <meta name="description" content="Мужская, женская и детская обувь ручной работы. Натуральные материалы, классический и современный стиль.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.svg" alt="FootArt" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О фабрике</a></li>
+                <li><a href="products.html" class="active">Продукция</a></li>
+                <li><a href="production.html">Производство</a></li>
+                <li><a href="brandbook.html">Брендбук</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <a href="contacts.html" class="contact-btn">Связаться с нами</a>
+            <button class="mobile-menu" id="mobileMenuBtn">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="fade-up">
+                <h1 class="section-title">Наша коллекция</h1>
+                <p class="section-subtitle">Каждая модель создана с любовью к деталям и уважением к традициям</p>
+                
+                <div class="filter-buttons" id="filterButtons">
+                    <button class="filter-btn active" data-filter="all">Все модели</button>
+                    <button class="filter-btn" data-filter="male">Мужская</button>
+                    <button class="filter-btn" data-filter="female">Женская</button>
+                    <button class="filter-btn" data-filter="kids">Детская</button>
+                </div>
+
+                <div class="product-grid" id="productGrid">
+                    <!-- ТОВАР 1: Мужские дерби -->
+                    <div class="product-card" data-category="male">
+                        <img src="images/мужс.jpg" alt="Дерби классические" onerror="this.src='https://placehold.co/400x300/6B4F4B/FFF?text=Мужские+Дерби'">
+                        <div class="product-info">
+                            <h4>Дерби классические</h4>
+                            <p>Натуральная кожа, ручная сборка, дышащая подкладка</p>
+                            <div class="price">24 900 ₽</div>
+                            <button class="btn">Подробнее</button>
+                        </div>
+                    </div>
+                    
+                    <!-- ТОВАР 2: Женские лоферы -->
+                    <div class="product-card" data-category="female">
+                        <img src="images/женские.jpg" alt="Лоферы элегантные" onerror="this.src='https://placehold.co/400x300/8B7D6B/FFF?text=Женские+Лоферы'">
+                        <div class="product-info">
+                            <h4>Лоферы элегантные</h4>
+                            <p>Мягкая замша, комфортная колодка, подошва на микропористой основе</p>
+                            <div class="price">21 500 ₽</div>
+                            <button class="btn">Подробнее</button>
+                        </div>
+                    </div>
+                    
+                    <!-- ТОВАР 3: Детские сапожки -->
+                    <div class="product-card" data-category="kids">
+                        <img src="images/дет.jpg" alt="Сапожки детские" onerror="this.src='https://placehold.co/400x300/2F4F4F/FFF?text=Детские+Сапожки'">
+                        <div class="product-info">
+                            <h4>Сапожки детские</h4>
+                            <p>Тёплые, натуральные материалы, анатомическая стелька</p>
+                            <div class="price">12 900 ₽</div>
+                            <button class="btn">Подробнее</button>
+                        </div>
+                    </div>
+                    
+                    <!-- ТОВАР 4: Мужские оксфорды -->
+                    <div class="product-card" data-category="male">
+                        <img src="images/оксфорды.jpg" alt="Оксфорды премиум" onerror="this.src='https://placehold.co/400x300/6B4F4B/FFF?text=Оксфорды+Премиум'">
+                        <div class="product-info">
+                            <h4>Оксфорды премиум</h4>
+                            <p>Ручная лакировка, итальянская кожа, вощёные шнурки</p>
+                            <div class="price">34 500 ₽</div>
+                            <button class="btn">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <img src="images/logo-dark.svg" alt="FootArt" class="footer-logo">
+                <p class="footer-desc">Искусство создавать комфорт с 2020</p>
+            </div>
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <p>📍 г. Уфа, ул. Мастеровая, 12</p>
+                <p>📞 +7 (347) 222-33-44</p>
+                <p>✉️ Footart@gmail.com</p>
+            </div>
+            <div class="footer-col">
+                <h4>Мы в соцсетях</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Telegram">📱 Telegram</a>
+                    <a href="#" aria-label="VK">📘 VK</a>
+                    <a href="#" aria-label="Instagram">📸 Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© FootArt — семейное мастерство. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
